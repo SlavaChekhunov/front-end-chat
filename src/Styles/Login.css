@@ -1,0 +1,66 @@
+.login {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.login_container {
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12)
+}
+
+.login_container > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login_container > button {
+    margin-top: 50px;
+    margin-left: 10px;
+    text-transform: inherit !important;
+    /* background-color: #0a8d48 !important; */
+    color: black;
+    cursor: pointer;
+  padding: 12px 16px 12px 30px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+  /* color: #757575; */
+  /* font-size: 25px; */
+  /* font-weight: 500; */
+  /* svg curtosy of https://icons8.com/icons*/
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 2px 14px;
+  /* margin-left: 60px; */
+}
+
+.login_button > button {
+     margin-top: 20px;
+    margin-left: 10px;
+    text-transform: inherit !important;
+    /* background-color: #0a8d48 !important; */
+    color: black;
+    cursor: pointer;
+  padding: 10px 16px 10px 36px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+  /* color: #757575; */
+  /* font-size: 25px; */
+  /* font-weight: 500; */
+  /* svg curtosy of https://icoguestns8.com/icons*/
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAABqUlEQVRYhe2VOUsDURSFvxiIoNHGDaxtAgoW1sbY2IgmLvgvXBARS03l8jtEGxUt/APWUUwbg6WFgkYxTZKxmDPMGEx8xhdQyIHLDPeed895M2+BFlr4h+gH0sA18KbIADtAX7PFF4AC4NSIF2CumeIVCZ0CcaBTMQGcqVYGUrbF+/FnvlGHtynOM9Br00Aaf+bf4VzcbZsGbtQ0bsBNiJuxaeBVTaMG3C5xCyaN2wwNlAx5AKGfjDE1kNdzzIDrce5sGjjRc9WAu1Y1xgoGgCfcf7tZh7clziPu1rWKFO5/dXC3WgJ3UUaBSeBCtRKQtC3uYR73pKt1FJfFaQpmgFwdcS9ywLRN4RCwHxAo4i7GGP5dEFOuKE4F2MXfkr/CQUD4Xe/HQCTAiSjniOMZ2futeDIgPgWM4140DnAJdCgu8S+hcXE9E7ONircD92qyHMiPAg/KXykc5UYDvBXl83z+WsZYUoNbIFxVG1Jjb13klQsiDGRVX2zEwJEGr9WoD0ogq/evsK4eh40Y8GY4XIfTo6iFEfyt+WN4K767kcFCN/7OaKGFv4kPmmOIir0BpTAAAAAASUVORK5CYII=);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 2px 8px;
+  /* margin-left: 60px; */
+}
+

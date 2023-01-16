@@ -1,0 +1,43 @@
+.joinChatContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    padding: 100px;
+}
+
+.joinChatContainer h3 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  margin-bottom: 40px;
+}
+
+.input {
+  width: 225px;
+  height: 40px;
+  margin: 7px;
+  margin-bottom: 20px;
+  border: 2px solid #43a047;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.joinChatContainer button {
+  width: 225px;
+  height: 40px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background: #43a047;
+  color: #fff;
+  cursor: pointer;
+}
+
+.joinChatContainer button:hover {
+  background: #2e7d32;
+}
